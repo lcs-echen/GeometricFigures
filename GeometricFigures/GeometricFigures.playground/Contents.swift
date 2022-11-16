@@ -1,4 +1,4 @@
-
+import Cocoa
 
 struct TriangularPrism {
     var base: Double
@@ -20,14 +20,10 @@ struct TriangularPrism {
     }
 }
 
+let firstFigure = TriangularPrism(base: 3, length: 4, height: 20, oneSideOfTriangle: 4, anotherSideOfTriangle: 5)
 
-let FirstFigure = TriangularPrism(base: 3, length: 4, height: 20, oneSideOfTriangle: 4, anotherSideOfTriangle: 5)
-
-FirstFigure.base
-FirstFigure.totalArea
-FirstFigure.volume
-
-
-
-
-
+firstFigure.base
+firstFigure.height
+firstFigure.baseArea
+firstFigure.totalArea
+firstFigure.volume
