@@ -27,3 +27,13 @@ firstFigure.height
 firstFigure.baseArea
 firstFigure.totalArea
 firstFigure.volume
+
+
+let secondFigure = TriangularPrism(base: 13, length: 10, height: 4, oneSideOfTriangle: 14, anotherSideOfTriangle: 15)
+
+secondFigure.anotherSideOfTriangle
+secondFigure.length
+secondFigure.rectangleArea
+secondFigure.totalArea
+secondFigure.volume
+
